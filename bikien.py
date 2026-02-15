@@ -3,9 +3,9 @@ from discord import app_commands
 from discord.ext import commands
 import random
 
-TOKEN = "MTQ2NjQyNjMwNTcyMDQ4NDA5MA.GpGBT4.zf4Z3OvpDZHnkapd_33uywMXjwA8KxmKYh--pU"
-GUILD_ID = 1466420983681515531
-CHANNEL_ID = 1466435508824571924  # kênh nhận đơn kiện
+TOKEN = ""
+GUILD_ID = 1429129488129851405
+CHANNEL_ID = 1472135769933086813  # kênh nhận đơn kiện
 
 intents = discord.Intents.default()
 bot = commands.Bot(command_prefix="!", intents=intents)
@@ -163,4 +163,5 @@ async def ketqua(
     )
 
 bot.run(TOKEN)
+
 
